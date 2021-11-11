@@ -1,6 +1,6 @@
 <?php
 
-$mysqli = mysqli_connect('localhost', 'root', '','nkathutodatabase') or die(mysqli_error($mysqli));
+$mysqli = mysqli_connect('localhost', 'root', '','database') or die(mysqli_error($mysqli));
 
 if(isset($_POST['save'])){
     $date = filter_input(INPUT_POST,'date',FILTER_SANITIZE_URL);

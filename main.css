@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    overflow: hidden;
+    background-color: #333;
+    bottom: 0;
+    width: 100%;
+}
+.navbar a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.navbar a:hover{
+    background: #f1f1f1;
+    color: black;
+}
+.navbar a.active{
+    background-color: #4CAF50;
+    color: white;
+}
+.main{
+    padding: 16px;
+    margin-bottom: 30px;
+}
+.jumbotron{
+    height:auto;
+    padding: 5px;
+    background-color: black;
+}
+div{
+    padding: 3px 10px 3px 10px;
+}
